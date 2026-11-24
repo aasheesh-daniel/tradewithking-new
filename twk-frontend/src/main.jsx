@@ -4,4 +4,4 @@ import App from './App.jsx';
 import '@fontsource/mea-culpa/400.css'; //signature font : Mea Culpa (installed with npm , works offline)
 import './App.css';
 
-createRoot(document.getElementById('root')).render(<BrowserRouter><App /></BrowserRouter>);
+createRoot(document.getElementById('root')).render(<BrowserRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}><App /></BrowserRouter>);
